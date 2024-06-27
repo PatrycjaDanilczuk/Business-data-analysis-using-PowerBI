@@ -11,7 +11,7 @@ It provides a realistic dataset for learning and practicing SQL queries, databas
 The schema of AdwentureWorks 2005 database can be accessed [here]( https://drive.google.com/file/d/1-Qsnn3bg0_PYgY5kKJOUDG8xdKLvOLPK/view)
 
 ## Access to the project
-The project has been uploaded in the PowerBI template and can be accessed here.
+The project has been uploaded in the PowerBI template and can be accessed [here](https://github.com/PatrycjaDanilczuk/Business-data-analysis-using-PowerBI/blob/main/PowerBI%20Sales%20Report.pbit)
 
 The static version of the project has been uploaded in the PDF file and can be accessed here.
 
