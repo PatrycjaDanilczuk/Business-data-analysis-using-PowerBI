@@ -13,7 +13,7 @@ The schema of AdwentureWorks 2005 database can be accessed [here]( https://drive
 ## Access to the project
 The project has been uploaded in the PowerBI template and can be accessed [here](https://github.com/PatrycjaDanilczuk/Business-data-analysis-using-PowerBI/blob/main/PowerBI%20Sales%20Report.pbit)
 
-The static version of the project has been uploaded in the PDF file and can be accessed here.
+The static version of the project has been uploaded in the PDF file and can be accessed [here](https://github.com/PatrycjaDanilczuk/Business-data-analysis-using-PowerBI/blob/main/My%20PowerBI%20Dashboard_static.pdf)
 
 ## Steps applied
 **Step 1:** Extracting and transforming necessary data from BigQuery
