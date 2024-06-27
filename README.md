@@ -56,7 +56,7 @@ Sales Order Detail: LineTotal (UnitPrice * OrderQty)
 
 Product Cost History: StandardCost (cost per unit at different points in time),  StartDate and EndDate appropriately considered to get the correct cost at the time of sale
 
-The SQL code applied for this purpose can be accessed here
+The SQL code applied for this purpose can be accessed [here](https://github.com/PatrycjaDanilczuk/Business-data-analysis-using-PowerBI/blob/main/SQL%20query%20for%20profit%20data)
 
 ### Sales data
 For the purpose of a more comprehensive analysis, the Sales value is calculated using the LineTotal column from SalesOrderDetail instead of the TotalDue column from SalesOrderHeader.
