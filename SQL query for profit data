@@ -1,0 +1,29 @@
+/Retriving Profit data/
+
+SELECT
+  orderdet.SalesOrderDetailID,
+  orderdet.SalesOrderID,
+  orderdet.OrderQty,
+  orderdet.ProductID,
+  orderdet.SpecialOfferID,
+  orderdet.UnitPrice,
+  -- orderdet.UnitPriceDiscount,
+  orderdet.LineTotal,
+  sales.OrderDate,
+  cost.StandardCost,
+  cost.StandardCost * orderdet.OrderQty AS TotalCost,
+  orderdet.LineTotal - (cost.StandardCost * orderdet.OrderQty) LineProfit
+FROM
+  `adwentureworks_db.salesorderdetail` AS orderdet
+LEFT JOIN
+  `adwentureworks_db.salesorderheader` AS sales
+ON
+  orderdet.SalesOrderID = sales.SalesOrderID
+LEFT JOIN
+  `adwentureworks_db.productcosthistory` AS cost
+ON
+  orderdet.ProductID = cost.ProductID
+WHERE
+  sales.OrderDate >= TIMESTAMP(cost.StartDate)
+  AND (sales.OrderDate <= TIMESTAMP(cost.EndDate)
+    OR cost.EndDate IS NULL)
