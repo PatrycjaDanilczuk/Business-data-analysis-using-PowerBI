@@ -1,4 +1,4 @@
-/Retriving Profit data/
+/*Retriving Profit data*/
 
 SELECT
   orderdet.SalesOrderDetailID,
